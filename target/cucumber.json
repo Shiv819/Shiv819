@@ -1,0 +1,548 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-26T00:48:24.762Z",
+        "line": 8,
+        "name": "Website",
+        "description": "",
+        "id": "navigate-to-website;website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4721000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to website and assert",
+            "match": {
+              "location": "StepDefinations.SD01_navigateToHNwebsite.navigate_to_website_and_assert()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to Login screen",
+            "match": {
+              "location": "StepDefinations.SD01_navigateToHNwebsite.navigate_to_login_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@SmokeTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to website",
+    "description": "",
+    "id": "navigate-to-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/FF01_NaviagteToHNwebsite.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-26T00:48:29.755Z",
+        "line": 12,
+        "name": "Create multiple accounts",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5160000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Registration screen of HN website",
+            "match": {
+              "location": "StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enters firstname as \"FirstName01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName01\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enters lastname as \"LastName01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName01\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enters emailadd as \"EmailAdd01@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd01@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enters pass as \"Password01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password01\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 330000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enters repass as \"RePassword01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RePassword01\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T00:48:36.212Z",
+        "line": 13,
+        "name": "Create multiple accounts",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4852000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Registration screen of HN website",
+            "match": {
+              "location": "StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enters firstname as \"FirstName02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName02\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 191000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enters lastname as \"LastName02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName02\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enters emailadd as \"EmailAdd02@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd02@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enters pass as \"Password02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password02\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 291000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enters repass as \"RePassword02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RePassword02\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T00:48:42.358Z",
+        "line": 14,
+        "name": "Create multiple accounts",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6147000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Registration screen of HN website",
+            "match": {
+              "location": "StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enters firstname as \"FirstName03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName03\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enters lastname as \"LastName03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName03\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enters emailadd as \"EmailAdd03@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd03@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enters pass as \"Password03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password03\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 280000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enters repass as \"RePassword03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RePassword03\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T00:48:49.923Z",
+        "line": 15,
+        "name": "Create multiple accounts",
+        "description": "",
+        "id": "registration-screen;create-multiple-accounts;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5074000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Registration screen of HN website",
+            "match": {
+              "location": "StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer enters firstname as \"FirstName04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FirstName04\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer enters lastname as \"LastName04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LastName04\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer enters emailadd as \"EmailAdd04@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EmailAdd04@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer enters pass as \"Password04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password04\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enters repass as \"RePassword04\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RePassword04\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Registration Screen",
+    "description": "",
+    "id": "registration-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/FF02_ScenarioExamples.feature",
+    "tags": []
+  }
+]

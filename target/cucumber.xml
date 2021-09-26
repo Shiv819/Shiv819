@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="31.525">
+<testcase classname="Navigate to website" name="Website" time="4.973">
+<system-out><![CDATA[Given Navigate to website and assert........................................passed
+Then Navigate to Login screen...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration Screen" name="Create multiple accounts" time="6.448">
+<system-out><![CDATA[Given navigate to Registration screen of HN website.........................passed
+Then customer enters firstname as "FirstName01".............................passed
+Then customer enters lastname as "LastName01"...............................passed
+Then customer enters emailadd as "EmailAdd01@gmail.com".....................passed
+Then customer enters pass as "Password01"...................................passed
+Then customer enters repass as "RePassword01"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration Screen" name="Create multiple accounts 2" time="6.138">
+<system-out><![CDATA[Given navigate to Registration screen of HN website.........................passed
+Then customer enters firstname as "FirstName02".............................passed
+Then customer enters lastname as "LastName02"...............................passed
+Then customer enters emailadd as "EmailAdd02@gmail.com".....................passed
+Then customer enters pass as "Password02"...................................passed
+Then customer enters repass as "RePassword02"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration Screen" name="Create multiple accounts 3" time="7.561">
+<system-out><![CDATA[Given navigate to Registration screen of HN website.........................passed
+Then customer enters firstname as "FirstName03".............................passed
+Then customer enters lastname as "LastName03"...............................passed
+Then customer enters emailadd as "EmailAdd03@gmail.com".....................passed
+Then customer enters pass as "Password03"...................................passed
+Then customer enters repass as "RePassword03"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration Screen" name="Create multiple accounts 4" time="6.225">
+<system-out><![CDATA[Given navigate to Registration screen of HN website.........................passed
+Then customer enters firstname as "FirstName04".............................passed
+Then customer enters lastname as "LastName04"...............................passed
+Then customer enters emailadd as "EmailAdd04@gmail.com".....................passed
+Then customer enters pass as "Password04"...................................passed
+Then customer enters repass as "RePassword04"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

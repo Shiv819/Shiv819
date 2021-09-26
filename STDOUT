@@ -1,0 +1,41 @@
+
+@All @SmokeTesting
+Scenario: Website                      [90m# src/test/java/FeatureFiles/FF01_NaviagteToHNwebsite.feature:8[0m
+  [32mGiven [0m[32mNavigate to website and assert[0m [90m# StepDefinations.SD01_navigateToHNwebsite.navigate_to_website_and_assert()[0m
+  [32mThen [0m[32mNavigate to Login screen[0m        [90m# StepDefinations.SD01_navigateToHNwebsite.navigate_to_login_screen()[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:12[0m
+  [32mGiven [0m[32mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+  [32mThen [0m[32mcustomer enters firstname as [0m[32m[1m"FirstName01"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters lastname as [0m[32m[1m"LastName01"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters emailadd as [0m[32m[1m"EmailAdd01@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters pass as [0m[32m[1m"Password01"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters repass as [0m[32m[1m"RePassword01"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:13[0m
+  [32mGiven [0m[32mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+  [32mThen [0m[32mcustomer enters firstname as [0m[32m[1m"FirstName02"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters lastname as [0m[32m[1m"LastName02"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters emailadd as [0m[32m[1m"EmailAdd02@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters pass as [0m[32m[1m"Password02"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters repass as [0m[32m[1m"RePassword02"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:14[0m
+  [32mGiven [0m[32mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+  [32mThen [0m[32mcustomer enters firstname as [0m[32m[1m"FirstName03"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters lastname as [0m[32m[1m"LastName03"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters emailadd as [0m[32m[1m"EmailAdd03@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters pass as [0m[32m[1m"Password03"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters repass as [0m[32m[1m"RePassword03"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:15[0m
+  [32mGiven [0m[32mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+  [32mThen [0m[32mcustomer enters firstname as [0m[32m[1m"FirstName04"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters lastname as [0m[32m[1m"LastName04"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters emailadd as [0m[32m[1m"EmailAdd04@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters pass as [0m[32m[1m"Password04"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [32mThen [0m[32mcustomer enters repass as [0m[32m[1m"RePassword04"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
